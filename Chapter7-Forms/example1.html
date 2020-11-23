@@ -13,7 +13,7 @@
             <fieldset>
                 <legend>Your Review:</legend>
                 <p>
-                    <label>How did you hear about us?</label><select name="search" size="1" multiple="multiple">
+                    <label>How did you hear about us?<select name="search" size="1" multiple="multiple"></label>
                         <option value="google" selected="selected">Google</option>
                         <option value="forums">Forums</option>
                         <option value="televison">TV</option>
@@ -27,11 +27,13 @@
                 <input type="radio" id="maybe" name="visit" value="maybe" />
                 <label for="maybe">Maybe</label><br />
                 <p>
-                    <label>Comments:</label><br />
+                    <label>Comments:<br />
                     <textarea name="comments" cols="80" rows="16"></textarea>
+					</label>
                 </p>
-                <input type="checkbox" id="yes" name="sign up" value="yes" checked="checked" />
-                <label for="yes">Sign me up for email updates</label><br />
+                <label>
+				<input type="checkbox" id="yes" name="sign up" value="yes" checked="checked" />Sign me up for email updates
+				</label><br />
                 <input type="submit" name="subscribe" value="Subscribe review" />
             </fieldset>
         </form>
